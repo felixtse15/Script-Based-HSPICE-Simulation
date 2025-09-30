@@ -1,0 +1,171 @@
+.option scale=1.0u
+
+.lib tt
+.param MC_MM_SWITCH=0
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__tt.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__tt.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib tt_mc
+.param MC_MM_SWITCH=1
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__tt.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__tt.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib ff
+.param MC_MM_SWITCH=0
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__ff.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__ff.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__ff.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__ff.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__ff.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib ff_mc
+.param MC_MM_SWITCH=1
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__ff.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__ff.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__ff.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__ff.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__ff.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib ss
+.param MC_MM_SWITCH=0
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__ss.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__ss.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__ss.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__ss.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__ss.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib ss_mc
+.param MC_MM_SWITCH=1
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__ss.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__ss.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__ss.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__ss.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__ss.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib sf
+.param MC_MM_SWITCH=0
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__sf.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__sf.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__sf.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__sf.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__sf.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib sf_mc
+.param MC_MM_SWITCH=1
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__sf.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__sf.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__sf.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__sf.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__sf.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib fs
+.param MC_MM_SWITCH=0
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__fs.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__fs.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__fs.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__fs.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__fs.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
+
+.lib fs_mc
+.param MC_MM_SWITCH=1
+.include "./lod.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__fs.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__fs.corner.spice"
+.include "./models_130_rvt/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__fs.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__fs.corner.spice"
+.include "./models_130_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__fs.corner.spice"
+.include "./models_130_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.endl
